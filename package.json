@@ -1,5 +1,5 @@
 {
-  "name": "@zondax/ledger-substrate",
+  "name": "@blooo/ledger-substrate",
   "version": "0.17.9",
   "description": "JS / Node API for Kusama/Polkadot app running (Ledger Nano S/X)",
   "author": "Zondax GmbH",
