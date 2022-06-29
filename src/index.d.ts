@@ -59,6 +59,7 @@ export type SubstrateAppCreator = (transport: Transport) => SubstrateApp
 
 export const newKusamaApp: SubstrateAppCreator
 export const newPolkadotApp: SubstrateAppCreator
+export const newVTBApp: SubstrateAppCreator
 export const newPolymeshApp: SubstrateAppCreator
 export const newDockApp: SubstrateAppCreator
 export const newCentrifugeApp: SubstrateAppCreator

@@ -417,6 +417,10 @@ function newStafiApp(transport) {
   return new SubstrateApp(transport, CLA.STAFI, SLIP0044.STAFI)
 }
 
+function newVTBApp(transport) {
+  return new SubstrateApp(transport, CLA.VTB, SLIP0044.VTB)
+}
+
 function sha512(data) {
   var digest = hash.sha512().update(data).digest()
   return Buffer.from(digest)
@@ -527,4 +531,5 @@ module.exports = {
   newAstarApp,
   newComposableApp,
   newStafiApp,
+  newVTBApp,
 }
