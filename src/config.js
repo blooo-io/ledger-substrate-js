@@ -21,7 +21,7 @@ const CLA = {
   COMPOSABLE: 0xa8,
   ASTAR: 0xa9,
   STAFI: 0xac,
-  VTB: 0x90,
+  VTB: 0xa4,
 }
 
 // https://github.com/satoshilabs/slips/blob/master/slip-0044.md
